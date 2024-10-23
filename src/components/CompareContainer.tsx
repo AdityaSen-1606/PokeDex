@@ -1,4 +1,3 @@
-import React from 'react'
 import { pokemonStatType, pokemonTypeInterface, userPokemonType } from '../utils/Types';
 import { FaPlus } from 'react-icons/fa';
 import { pokemonTypes } from '../utils/PokemonTypes';

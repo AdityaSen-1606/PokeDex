@@ -1,31 +1,4 @@
-import React from 'react'
-import { pokemonTabs } from '../utils/Constants';
-import { useAppDispatch, useAppSelector } from '../app/hooks';
-import { useLocation } from 'react-router-dom';
-import { setPokemonTab } from '../app/slices/AppSlice';
-
 function Footer() {
-  const {currentPokemonTab}=useAppSelector(({app})=>app);
-  const dispatch = useAppDispatch();
-  const location = useLocation();
-  const routes = [
-    {
-      name: pokemonTabs.description,
-      value: "Description",
-    },
-    {
-      name: pokemonTabs.evolution,
-      value: "Evolution",
-    },
-    {
-      name: pokemonTabs.locations,
-      value: "Catching",
-    },
-    {
-      name: pokemonTabs.moves,
-      value: "Capable Moves",
-    },
-  ];
   return (
     <footer className="grid grid-cols-[5rem_auto_5rem] border-t-[0.5px] border-t-[rgba(255,255,255,0.203)]">
       <div className="flex justify-center items-center text-[#e21b5a]"></div>

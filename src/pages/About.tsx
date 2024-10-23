@@ -1,7 +1,6 @@
-import React from 'react'
-import Wrapper from '../sections/Wrapper'
 import avatarImage from '../assets/aditya.jpeg'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import Wrapper from '../sections/Wrapper';
 
 function About() {
   return (

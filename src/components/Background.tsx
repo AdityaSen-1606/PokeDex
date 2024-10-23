@@ -1,4 +1,3 @@
-import React from 'react'
 import pokeball from "../assets/pokeball.png"
 import pokeball2 from "../assets/pokeball2.png"
 

@@ -1,7 +1,6 @@
-import React from 'react'
-import Wrapper from '../sections/Wrapper'
 import { useAppSelector } from '../app/hooks'
 import CompareContainer from '../components/CompareContainer.tsx';
+import Wrapper from '../sections/Wrapper.tsx';
 
 function Compare() {
   const {compareQueue} = useAppSelector(({pokemon})=>pokemon);

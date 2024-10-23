@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import Wrapper from "../sections/Wrapper";
+import  { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../app/hooks";
 import { getInitialPokemonData } from "../app/reducers/getInitialPokemonData";
 import { getPokemonsData } from "../app/reducers/getPokemonsData";
 import PokemonCardGrid from "../components/PokemonCardGrid";
 import { debounce } from "../utils/Debounce";
+import Wrapper from "../sections/Wrapper";
 
 function PokeDex() {
   const dispatch = useAppDispatch();

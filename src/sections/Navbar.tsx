@@ -1,4 +1,3 @@
-import React from 'react'
 import pokeball from "../assets/pokeball.png"
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { Link } from 'react-router-dom';

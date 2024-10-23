@@ -1,4 +1,3 @@
-import React from 'react'
 import { pokemonTypeInterface, userPokemonType } from '../utils/Types'
 import { IoGitCompare } from 'react-icons/io5';
 import { useLocation, useNavigate } from 'react-router-dom';
